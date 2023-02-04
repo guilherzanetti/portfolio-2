@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+
+header{
+    background-color: black;
+}
+.navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left:14%;
+    margin-right: 14%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn-nav {
+    text-decoration: none;
+    color: #D2D2D2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+
+.btn-nav:hover {
+    transition: 500ms;
+    border: #D4D4D4;
+    border-style: solid;
+
+}
+
+/* BANNER */
+
+.banner {
+    background-image:url('img/banner.png');
+    padding-top: 13%;
+    padding-bottom: 13%;
+    align-items: center;
+}
+.h1-banner{
+    margin-left: 14%;
+    margin-right: 14%;
+
+    color: #D4D4D4;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 48px;
+}
+
+/* CONTENT-1 */
+
+.content-1 {
+    background-color: black;
+    
+}
+
+.content {
+    background-color: #D2D2D2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 14%;
+    margin-right: 14%;
+    border-radius: 20px;
+    
+}
+
+.prazer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+
+.img-perfil {
+    width: 100px;
+}
+
+.h1-prazer {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 500;
+    margin-left: 15px;
+    font-weight: 600;
+    color: #2C2C2C;
+}
+
+.p1-prazer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+    font-size: 22px;
+}
+
+.sobre-mim{
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 10px;
+}
+
+/* ------- CHAMADA PRA AÇÃO ------- */
+
+.content2 {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+
+.content2-btn-display {
+    text-align: right;
+
+}
+
+.h1-content2 {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: #2C2C2C;
+
+}
+
+.btn-content2 {
+}
+
+.h1-btn-content2 {
+    margin-top: 15px;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 500;
+    background-color: #4677D7;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 500ms;
+    text-decoration: none;
+    color: #D2D2D2;
+}
+
+.h1-btn-content2:hover {
+    background-color: #1862f6;
+    transition: 500ms;
+}
+
+.btn-a {
+    text-decoration: none;
+}
+    
+
+.img-lottie {
+}
+
+/* ----------- CONTENT-CONTATO ------------- */
+
+.content-contato {
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 28px;
+}
+
+.display-contato {
+    color: #D2D2D2;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 40px;
+   
+
+}
+
