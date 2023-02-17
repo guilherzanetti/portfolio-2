@@ -7,10 +7,61 @@
     box-sizing: border-box;
 }
 
+/* HEADER RESPONSIVO */
+
+.responsive-header {
+    background-color: #141414;
+    display: none;
+}
+
+
+.button-header-r{
+    text-align: right;
+    color: #D2D2D2;
+    font-size: 30px;
+    padding: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.list-header{
+    text-align: center;
+    color: #D2D2D2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: none;
+}
+
+.list-button-header{
+    background-color: #202020;
+    padding: 15px;
+    
+}
+
+.list-button-header:hover{
+    background-color: #2d2d2d;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+
+.a-responsive-h{
+    text-decoration: none;
+    color:#D2D2D2;
+    font-size: 20px;
+    padding-left: 40%;
+    padding-right: 40%;
+    transition: 100;
+}
+
 /* HEADER */
 
 header{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.829);
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 .navbar{
     align-items: center;
@@ -266,3 +317,460 @@ header{
 
 }
 
+/* RESPONSIVIDADE TELA CELULAR (large screen) */
+
+
+@media screen and (max-width: 1000px) {
+    /* -------- Header Responsivo (smartphone) */
+    
+    .responsive-header {
+        display: block;
+    }
+
+    /* -------- Header (smartphone) */
+    header{
+        display: none;
+    }
+
+    /* -------- Banner (smartphone) */
+    
+    .h1-banner{
+
+        margin-left: 5%;
+        margin-right: 5%;
+    
+        /* ScrollReveal */
+        visibility: hidden;
+    
+        color: #D4D4D4;
+        font-family: 'Readex Pro', sans-serif;
+        font-size: 32px;
+    }
+
+    /* -------- Content-1 (smartphone) */
+
+    .content {
+        background-color: #D2D2D2;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 20px;
+    
+    }
+
+    .prazer {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin-left: 4%;
+        margin-right: 4%;
+        
+    }
+
+    .h1-prazer {
+        font-family: 'Readex Pro', sans-serif;
+        font-weight: 500;
+        margin-left: 15px;
+        font-weight: 600;
+        color: #2C2C2C;
+        font-size: 26px;
+    }
+    
+    .p1-prazer {
+        font-size: 20px;
+        
+    }
+    
+    /* -------- Chamada pra ação (smartphone) */
+    
+    .content2 {
+        margin-left: 4%;
+        margin-right: 4%;
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-around;
+    }
+    
+    .content2-btn-display {
+        /* ScrollReveal */
+        visibility: hidden;
+        text-align: center;
+    
+    }
+    
+    .h1-content2 {
+        font-family: 'Readex Pro', sans-serif;
+        font-size: 38px;
+        font-weight: 500;
+        color: #2C2C2C;
+    
+    }
+    
+    .btn-content2 {
+    }
+    
+    .h1-btn-content2 {
+        margin-top: 15px;
+        font-family: 'Readex Pro', sans-serif;
+        font-weight: 500;
+        background-color: #4677D7;
+        padding: 10px;
+        text-align: center;
+        border-radius: 50px;
+        transition: 500ms;
+        text-decoration: none;
+        color: #D2D2D2;
+    }
+    
+    .h1-btn-content2:hover {
+        background-color: #1862f6;
+        transition: 500ms;
+    }
+    
+    .btn-a {
+        text-decoration: none;
+    }
+        
+    
+    .img-lottie {
+        /* ScrollReveal */
+        visibility: hidden;
+        display: none;
+        
+        
+    }
+
+    /* -------- Projetos (smartphone) */
+
+    .projetos{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-image: linear-gradient(to bottom, #000000, #090909);
+        border-radius: 40px;
+    
+    }
+    
+    .content-projetos{
+        margin-left: 4%;
+        margin-right: 4%;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#D4D4D4
+    
+    }
+    
+    .banner-projetos{
+        margin-bottom: 40px;
+        font-family: 'Readex Pro', sans-serif;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .h1-projetos{
+        font-size: 32px;
+    }
+    
+    .p-projetos {
+        font-size: 21px;
+    }
+    
+    .boxp {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: linear-gradient(to right, #141414, #252525);
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: -2px 3px 5px #0000002b;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: #D2D2D2;
+        
+    }
+    
+    .boxp:hover{
+        background-image: linear-gradient(to right, #1e1e1e, #2e2e2e);
+    }
+    
+    .titulo-do-projeto{
+        margin-bottom: 10px;
+        color: #D2D2D2;
+    }
+    
+    .descricao-do-projeto{
+        color: #D2D2D2;
+    }
+    
+    .a-projeto{
+        text-decoration: none;
+    }
+
+    /* -------- Redes sociais (smartphone) */
+
+    .content-contato {
+        margin-left: 14%;
+        margin-right: 14%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 28px;
+    }
+    
+    .display-contato {
+        color: #D2D2D2;
+        font-family: 'Readex Pro', sans-serif;
+        font-weight: 800;
+        text-align: center;
+    
+    }
+    
+    .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 40px;
+       
+    
+    }
+    
+    .h1-contato{
+        font-size: 32px;
+    }
+
+    .img-rede-social {
+        width: 100px;
+    }
+}
+
+/* ---------- SMARTPHONE SMALL --------- */
+
+@media screen and (max-width: 450px) {
+
+        /* -------- Header (smartphone small) */
+        header{
+            display: none;
+        }
+    
+        /* -------- Banner (smartphone small) */
+        
+        .h1-banner{
+    
+            margin-left: 5%;
+            margin-right: 5%;
+        
+            /* ScrollReveal */
+            visibility: hidden;
+        
+            color: #D4D4D4;
+            font-family: 'Readex Pro', sans-serif;
+            font-size: 30px;
+        }
+    
+        /* -------- Content-1 (smartphone small) */
+    
+        .content {
+            background-color: #D2D2D2;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 5%;
+            margin-right: 5%;
+            border-radius: 20px;
+        
+        }
+    
+        .prazer {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin-left: 4%;
+            margin-right: 4%;
+            
+        }
+    
+        .h1-prazer {
+            font-family: 'Readex Pro', sans-serif;
+            font-weight: 500;
+            margin-left: 15px;
+            font-weight: 600;
+            color: #2C2C2C;
+            font-size: 18px;
+        }
+        
+        .p1-prazer {
+            font-size: 16px;
+            
+        }
+        
+        /* -------- Chamada pra ação (smartphone small) */
+        
+        .content2 {
+            margin-left: 4%;
+            margin-right: 4%;
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            justify-content: space-around;
+        }
+        
+        .content2-btn-display {
+            /* ScrollReveal */
+            visibility: hidden;
+            text-align: center;
+        
+        }
+        
+        .h1-content2 {
+            font-family: 'Readex Pro', sans-serif;
+            font-size: 30px;
+            font-weight: 500;
+            color: #2C2C2C;
+        
+        }
+        
+        .btn-content2 {
+        }
+        
+        .h1-btn-content2 {
+            margin-top: 15px;
+            font-family: 'Readex Pro', sans-serif;
+            font-weight: 500;
+            background-color: #4677D7;
+            padding: 10px;
+            text-align: center;
+            border-radius: 50px;
+            transition: 500ms;
+            text-decoration: none;
+            color: #D2D2D2;
+        }
+        
+        .h1-btn-content2:hover {
+            background-color: #1862f6;
+            transition: 500ms;
+        }
+        
+        .btn-a {
+            text-decoration: none;
+        }
+            
+        
+        .img-lottie {
+            /* ScrollReveal */
+            visibility: hidden;
+            display: none;
+            
+            
+        }
+    
+        /* -------- Projetos (smartphone small) */
+    
+        .projetos{
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-image: linear-gradient(to bottom, #000000, #090909);
+            border-radius: 40px;
+        
+        }
+        
+        .content-projetos{
+            margin-left: 2%;
+            margin-right: 2%;
+            font-family: Arial, Helvetica, sans-serif;
+            color:#D4D4D4
+        
+        }
+        
+        .banner-projetos{
+            margin-bottom: 40px;
+            font-family: 'Readex Pro', sans-serif;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .h1-projetos{
+            font-size: 32px;
+        }
+        
+        .p-projetos {
+            font-size: 21px;
+        }
+        
+        .boxp {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-image: linear-gradient(to right, #141414, #252525);
+            margin-left: 10%;
+            margin-right: 10%;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: -2px 3px 5px #0000002b;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #D2D2D2;
+            
+        }
+        
+        .boxp:hover{
+            background-image: linear-gradient(to right, #1e1e1e, #2e2e2e);
+        }
+        
+        .titulo-do-projeto{
+            margin-bottom: 10px;
+            color: #D2D2D2;
+        }
+        
+        .descricao-do-projeto{
+            color: #D2D2D2;
+        }
+        
+        .a-projeto{
+            text-decoration: none;
+        }
+    
+        /* -------- Redes sociais (smartphone small) */
+    
+        .content-contato {
+            margin-left: 14%;
+            margin-right: 14%;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            font-size: 28px;
+        }
+        
+        .display-contato {
+            color: #D2D2D2;
+            font-family: 'Readex Pro', sans-serif;
+            font-weight: 800;
+            text-align: center;
+        
+        }
+        
+        .social-media {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 40px;
+           
+        
+        }
+        
+        .h1-contato{
+            font-size: 24px;
+        }
+    
+        .img-rede-social {
+            width: 70px;
+        }
+}
