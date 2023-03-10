@@ -95,6 +95,8 @@ header{
 
 .banner {
     background-image:url('img/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 13%;
     padding-bottom: 13%;
     align-items: center;
@@ -274,7 +276,9 @@ header{
 }
 
 .boxp:hover{
-    background-image: linear-gradient(to right, #1e1e1e, #2e2e2e);
+    background-image: linear-gradient(to right, #1e1e1e, #2e2e2ec1);
+    background-color: #1862f6;
+    transition: 500ms;
 }
 
 .titulo-do-projeto{
@@ -494,10 +498,6 @@ header{
         text-decoration: none;
         color: #D2D2D2;
         
-    }
-    
-    .boxp:hover{
-        background-image: linear-gradient(to right, #1e1e1e, #2e2e2e);
     }
     
     .titulo-do-projeto{
@@ -720,10 +720,6 @@ header{
             text-decoration: none;
             color: #D2D2D2;
             
-        }
-        
-        .boxp:hover{
-            background-image: linear-gradient(to right, #1e1e1e, #2e2e2e);
         }
         
         .titulo-do-projeto{
