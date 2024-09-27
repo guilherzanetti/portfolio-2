@@ -233,8 +233,8 @@ header{
 }
 
 .content-projetos{
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
     color:#D4D4D4
 
 }
@@ -529,6 +529,9 @@ header{
     .a-projeto{
         text-decoration: none;
     }
+    .img-project{
+        width: 300px;
+    }
 
     /* -------- Redes sociais (smartphone) */
 
@@ -713,6 +716,10 @@ header{
         
         .p-projetos {
             font-size: 21px;
+        }
+
+        .img-project{
+            width: 300px;
         }
         
         .boxp {
