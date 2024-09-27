@@ -290,7 +290,7 @@ header{
     text-align: center;
     background-image: linear-gradient(to right, #292929, #424242);
     margin-left: 10px;
-    margin-right: 50px;
+    margin-right: 10px;
     padding: 20px;
     border-radius: 30px;
     box-shadow: -2px 3px 5px #0000002b;
@@ -506,7 +506,7 @@ header{
         text-decoration: none;
     }
      .img-project{
-            width: 300px;
+            width: 200px;
         }
 
     /* -------- Redes sociais (smartphone) */
@@ -675,15 +675,15 @@ header{
         }
         
         .h1-projetos{
-            font-size: 32px;
+            font-size: 28px;
         }
         
         .p-projetos {
-            font-size: 21px;
+            font-size: 18px;
         }
 
         .img-project{
-            width: 300px;
+            width: 200px;
         }
         
         
