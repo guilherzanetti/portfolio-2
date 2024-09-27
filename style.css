@@ -171,7 +171,7 @@ header{
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .content2-btn-display {
@@ -186,6 +186,7 @@ header{
     font-size: 38px;
     font-weight: 500;
     color: #f1f1f1;
+    text-align: center;
 
 }
 
@@ -195,7 +196,8 @@ header{
 .h1-btn-content2 {
     margin-top: 15px;
     font-weight: 500;
-    background-color: #4677D7;
+    background: linear-gradient(90deg, rgba(0,15,57,1) 0%, rgba(0,146,255,1) 100%);
+
     padding: 10px;
     text-align: center;
     border-radius: 50px;
@@ -205,7 +207,8 @@ header{
 }
 
 .h1-btn-content2:hover {
-    background-color: #1862f6;
+    background: linear-gradient(90deg, rgba(0,15,57,1) 0%, rgba(0,146,255,1) 100%);
+
     transition: 500ms;
 }
 
@@ -222,8 +225,8 @@ header{
 /* ----------- PROJETOS ------------- */
 
 .projetos{
-    margin-left: 14%;
-    margin-right: 14%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 25px;
     margin-bottom: 25px;
     padding-top: 40px;
@@ -529,9 +532,9 @@ header{
     .a-projeto{
         text-decoration: none;
     }
-    .img-project{
-        width: 300px;
-    }
+     .img-project{
+            width: 300px;
+        }
 
     /* -------- Redes sociais (smartphone) */
 
