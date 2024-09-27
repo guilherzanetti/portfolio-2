@@ -225,13 +225,11 @@ header{
 /* ----------- PROJETOS ------------- */
 
 .projetos{
-    margin-left: 10%;
-    margin-right: 10%;
+    
     margin-top: 25px;
     margin-bottom: 25px;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-image: linear-gradient(to bottom, #000000, #090909);
     border-radius: 40px;
 }
 
@@ -275,6 +273,7 @@ header{
 
 .img-project{
     width: 400px;
+    margin-bottom: 20px;
 }
 
 .h1-projetos{
@@ -289,8 +288,8 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(to right, #141414, #252525);
-    margin-left: 50px;
+    background-image: linear-gradient(to right, #292929, #424242);
+    margin-left: 10px;
     margin-right: 50px;
     padding: 20px;
     border-radius: 30px;
