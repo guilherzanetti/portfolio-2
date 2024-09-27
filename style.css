@@ -57,11 +57,13 @@
 /* HEADER */
 
 header{
-    background-color: rgba(0, 0, 0, 0.829);
+    background-color: rgba(0, 0, 0, 0.403);
+    backdrop-filter: blur(20px);
     background-size: cover;
     overflow: hidden;
     position: fixed;
     width: 100%;
+    padding: 20px;
 }
 .navbar{
     align-items: center;
