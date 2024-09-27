@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 /* HEADER RESPONSIVO */
@@ -27,7 +28,6 @@
 .list-header{
     text-align: center;
     color: #D2D2D2;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     display: none;
 }
@@ -76,7 +76,6 @@ header{
 .btn-nav {
     text-decoration: none;
     color: #D2D2D2;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     margin-left: 15px;
     font-size: 20px;
@@ -94,22 +93,24 @@ header{
 /* BANNER */
 
 .banner {
-    background-image:url('img/banner.png');
+    background-image:url('img/background-galaxy.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 13%;
     padding-bottom: 13%;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .h1-banner{
-    margin-left: 14%;
-    margin-right: 14%;
+    /* margin-left: 14%;
+    margin-right: 14%; */
 
     /* ScrollReveal */
     visibility: hidden;
 
     color: #D4D4D4;
-    font-family: 'Readex Pro', sans-serif;
     font-size: 48px;
 }
 
@@ -121,12 +122,13 @@ header{
 }
 
 .content {
-    background-color: #D2D2D2;
+    background-color: #151515;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 14%;
-    margin-right: 14%;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 20px;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -145,16 +147,14 @@ header{
 }
 
 .h1-prazer {
-    font-family: 'Readex Pro', sans-serif;
     font-weight: 500;
     margin-left: 15px;
     font-weight: 600;
-    color: #2C2C2C;
+    color: #f1f1f1;
 }
 
 .p1-prazer {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #505050;
+    color: #ababab;
     font-size: 22px;
 }
 
@@ -167,8 +167,6 @@ header{
 /* ------- CHAMADA PRA AÇÃO ------- */
 
 .content2 {
-    margin-left: 4%;
-    margin-right: 4%;
     display: flex;
     align-items: center;
     padding-top: 20px;
@@ -185,10 +183,9 @@ header{
 }
 
 .h1-content2 {
-    font-family: 'Readex Pro', sans-serif;
     font-size: 38px;
     font-weight: 500;
-    color: #2C2C2C;
+    color: #f1f1f1;
 
 }
 
@@ -197,7 +194,6 @@ header{
 
 .h1-btn-content2 {
     margin-top: 15px;
-    font-family: 'Readex Pro', sans-serif;
     font-weight: 500;
     background-color: #4677D7;
     padding: 10px;
@@ -234,22 +230,38 @@ header{
     padding-bottom: 40px;
     background-image: linear-gradient(to bottom, #000000, #090909);
     border-radius: 40px;
-
 }
 
 .content-projetos{
     margin-left: 4%;
     margin-right: 4%;
-    font-family: Arial, Helvetica, sans-serif;
     color:#D4D4D4
 
 }
 
 .banner-projetos{
     margin-bottom: 40px;
-    font-family: 'Readex Pro', sans-serif;
     justify-content: center;
     text-align: center;
+}
+
+.projetos-view{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.projetos-view::-webkit-scrollbar{
+    background-color:#00092d;
+    width: 20px;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+.projetos-view::-webkit-scrollbar-thumb{
+    background-color:#001771;
+    border: solid 1px black;
+    border-radius: 20px;
 }
 
 .box-img-project{
@@ -259,7 +271,7 @@ header{
 }
 
 .img-project{
-    width: 100%;
+    width: 400px;
 }
 
 .h1-projetos{
@@ -275,8 +287,8 @@ header{
     justify-content: center;
     text-align: center;
     background-image: linear-gradient(to right, #141414, #252525);
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 20px;
     border-radius: 30px;
     box-shadow: -2px 3px 5px #0000002b;
@@ -317,7 +329,6 @@ header{
 
 .display-contato {
     color: #D2D2D2;
-    font-family: 'Readex Pro', sans-serif;
     font-weight: 800;
     text-align: center;
 
@@ -358,14 +369,12 @@ header{
         visibility: hidden;
     
         color: #D4D4D4;
-        font-family: 'Readex Pro', sans-serif;
         font-size: 32px;
     }
 
     /* -------- Content-1 (smartphone) */
 
     .content {
-        background-color: #D2D2D2;
         padding-top: 20px;
         padding-bottom: 20px;
         margin-left: 5%;
@@ -388,11 +397,9 @@ header{
     }
 
     .h1-prazer {
-        font-family: 'Readex Pro', sans-serif;
         font-weight: 500;
         margin-left: 15px;
         font-weight: 600;
-        color: #2C2C2C;
         font-size: 26px;
     }
     
@@ -421,10 +428,8 @@ header{
     }
     
     .h1-content2 {
-        font-family: 'Readex Pro', sans-serif;
         font-size: 38px;
         font-weight: 500;
-        color: #2C2C2C;
     
     }
     
@@ -433,7 +438,6 @@ header{
     
     .h1-btn-content2 {
         margin-top: 15px;
-        font-family: 'Readex Pro', sans-serif;
         font-weight: 500;
         background-color: #4677D7;
         padding: 10px;
@@ -479,14 +483,12 @@ header{
     .content-projetos{
         margin-left: 4%;
         margin-right: 4%;
-        font-family: Arial, Helvetica, sans-serif;
         color:#D4D4D4
     
     }
     
     .banner-projetos{
         margin-bottom: 40px;
-        font-family: 'Readex Pro', sans-serif;
         justify-content: center;
         text-align: center;
     }
@@ -540,7 +542,6 @@ header{
     
     .display-contato {
         color: #D2D2D2;
-        font-family: 'Readex Pro', sans-serif;
         font-weight: 800;
         text-align: center;
     
@@ -584,14 +585,13 @@ header{
             visibility: hidden;
         
             color: #D4D4D4;
-            font-family: 'Readex Pro', sans-serif;
             font-size: 30px;
         }
     
         /* -------- Content-1 (smartphone small) */
     
         .content {
-            background-color: #D2D2D2;
+
             padding-top: 20px;
             padding-bottom: 20px;
             margin-left: 5%;
@@ -610,11 +610,10 @@ header{
         }
     
         .h1-prazer {
-            font-family: 'Readex Pro', sans-serif;
             font-weight: 500;
             margin-left: 15px;
             font-weight: 600;
-            color: #2C2C2C;
+
             font-size: 22px;
         }
         
@@ -643,10 +642,9 @@ header{
         }
         
         .h1-content2 {
-            font-family: 'Readex Pro', sans-serif;
             font-size: 30px;
             font-weight: 500;
-            color: #2C2C2C;
+
         
         }
         
@@ -655,7 +653,6 @@ header{
         
         .h1-btn-content2 {
             margin-top: 15px;
-            font-family: 'Readex Pro', sans-serif;
             font-weight: 500;
             background-color: #4677D7;
             padding: 10px;
@@ -663,7 +660,6 @@ header{
             border-radius: 50px;
             transition: 500ms;
             text-decoration: none;
-            color: #D2D2D2;
         }
         
         .h1-btn-content2:hover {
@@ -701,14 +697,12 @@ header{
         .content-projetos{
             margin-left: 2%;
             margin-right: 2%;
-            font-family: Arial, Helvetica, sans-serif;
             color:#D4D4D4
         
         }
         
         .banner-projetos{
             margin-bottom: 40px;
-            font-family: 'Readex Pro', sans-serif;
             justify-content: center;
             text-align: center;
         }
@@ -762,7 +756,6 @@ header{
         
         .display-contato {
             color: #D2D2D2;
-            font-family: 'Readex Pro', sans-serif;
             font-weight: 800;
             text-align: center;
         
