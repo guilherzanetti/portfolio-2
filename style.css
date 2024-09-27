@@ -470,17 +470,6 @@ header{
 
     /* -------- Projetos (smartphone) */
 
-    .projetos{
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-image: linear-gradient(to bottom, #000000, #090909);
-        border-radius: 40px;
-    
-    }
     
     .content-projetos{
         margin-left: 4%;
@@ -503,21 +492,6 @@ header{
         font-size: 21px;
     }
     
-    .boxp {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-image: linear-gradient(to right, #141414, #252525);
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 20px;
-        border-radius: 30px;
-        box-shadow: -2px 3px 5px #0000002b;
-        margin-bottom: 20px;
-        text-decoration: none;
-        color: #D2D2D2;
-        
-    }
     
     .titulo-do-projeto{
         margin-bottom: 10px;
@@ -686,18 +660,6 @@ header{
         }
     
         /* -------- Projetos (smartphone small) */
-    
-        .projetos{
-            margin-left: 5%;
-            margin-right: 5%;
-            margin-top: 25px;
-            margin-bottom: 25px;
-            padding-top: 40px;
-            padding-bottom: 40px;
-            background-image: linear-gradient(to bottom, #000000, #090909);
-            border-radius: 40px;
-        
-        }
         
         .content-projetos{
             margin-left: 2%;
@@ -724,21 +686,6 @@ header{
             width: 300px;
         }
         
-        .boxp {
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background-image: linear-gradient(to right, #141414, #252525);
-            margin-left: 10%;
-            margin-right: 10%;
-            padding: 20px;
-            border-radius: 30px;
-            box-shadow: -2px 3px 5px #0000002b;
-            margin-bottom: 20px;
-            text-decoration: none;
-            color: #D2D2D2;
-            
-        }
         
         .titulo-do-projeto{
             margin-bottom: 10px;
